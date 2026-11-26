@@ -21,7 +21,7 @@
 | **Project Title** | Multi-Language Code Security and Quality Analyzer |
 | **Student Name** | Muhammad Ahmad |
 | **Roll Number** | `F23BINFT1E02015` |
-| **Program** | BS Information Technology (8th Semester — Final Year Project) |
+| **Program** | BS Information Technology (7th Semester — Final Year Project) |
 | **Supervisor** | Mr. Omer Riyaz |
 | **Department** | Department of Information Technology, Faculty of Computing |
 | **University** | The Islamia University of Bahawalpur (IUB) |
