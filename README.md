@@ -38,19 +38,19 @@ The **Multi-Language Code Security and Quality Analyzer** solves this through **
 
 ## Key Capabilities
 
-* **Zero-Execution Multi-Language Parsing:**
-  * **Python (`.py`):** Parsed via Python's native `ast` module.
-  * **JavaScript & React (`.js`, `.jsx`):** Parsed via `tree-sitter` language bindings.
-* **Hardened Archive Ingestion:** Enforces a 20 MB compressed limit, 100 MB extracted limit, 2,000-entry cap, SHA-256 integrity hashing, and strict rejection of path traversal (`..`), absolute paths, symbolic links, and encrypted archives.
-* **Security Rule Engine (CWE-Mapped):**
-  * **Hardcoded Secrets** (`CWE-798`) — High
-  * **Intra-Function SQL String Construction** (`CWE-89`) — High
-  * **Dangerous Execution Calls** (`eval`, `exec`, `os.system`, `shell=True`) (`CWE-78` / `CWE-95`) — High
-  * **Debug Configuration Left Enabled** (`DEBUG = True`) (`CWE-489`) — Medium
-  * **Weak Cryptographic Hashing** (`MD5`, `SHA1`) (`CWE-327`) — Medium
-* **Code Quality Rule Engine:** Detects oversized functions (`> 50` physical lines), unused imports, and normalized AST duplicate function bodies.
-* **Independent Dual Scoring & Triage:** Computes separate **Security Grade (`A–F`)** and **Quality Score (`0–100`)** normalized per `KLOC`, with interactive false-positive dismissal and live score recalculation.
-* **Audit & Machine-Readable Exports:** Generates formatted **PDF** audit reports (via ReportLab), structured **JSON**, and compact **SARIF** outputs.
+- **Zero-Execution Multi-Language Parsing:**
+  - **Python (`.py`):** Parsed via Python's native `ast` module.
+  - **JavaScript & React (`.js`, `.jsx`):** Parsed via `tree-sitter` language bindings.
+- **Hardened Archive Ingestion:** Enforces a 20 MB compressed limit, 100 MB extracted limit, 2,000-entry cap, SHA-256 integrity hashing, and strict rejection of path traversal (`..`), absolute paths, symbolic links, and encrypted archives.
+- **Security Rule Engine (CWE-Mapped):**
+  - **Hardcoded Secrets** (`CWE-798`) — High
+  - **Intra-Function SQL String Construction** (`CWE-89`) — High
+  - **Dangerous Execution Calls** (`eval`, `exec`, `os.system`, `shell=True`) (`CWE-78` / `CWE-95`) — High
+  - **Debug Configuration Left Enabled** (`DEBUG = True`) (`CWE-489`) — Medium
+  - **Weak Cryptographic Hashing** (`MD5`, `SHA1`) (`CWE-327`) — Medium
+- **Code Quality Rule Engine:** Detects oversized functions (`> 50` physical lines), unused imports, and normalized AST duplicate function bodies.
+- **Independent Dual Scoring & Triage:** Computes separate **Security Grade (`A–F`)** and **Quality Score (`0–100`)** normalized per `KLOC`, with interactive false-positive dismissal and live score recalculation.
+- **Audit & Machine-Readable Exports:** Generates formatted **PDF** audit reports (via ReportLab), structured **JSON**, and compact **SARIF** outputs.
 
 ---
 
@@ -72,10 +72,10 @@ All formal project documentation is maintained inside the [`docs/`](./docs) dire
 
 | Document | Version | Direct Download | View in Repository | Status |
 | :--- | :---: | :--- | :--- | :--- |
-| **Software Requirement Specifications (SRS)** | `v1.1` | **[Download PDF (30 Pages)](https://raw.githubusercontent.com/codewithahmad23/multi-language-code-security-analyzer-fyp/main/docs/SRS_Multi_Language_Code_Securit.pdf)** | [DOCX](./docs/SRS_Multi_Language_Code_Security_Analyzer-2.docx) · [PDF](./docs/SRS_Multi_Language_Code_Securit.pdf) | Complete |
+| **Software Requirement Specifications (SRS)** | `v1.1` | **[Open / Download PDF](./docs/SRS_Multi_Language_Code_Securit.pdf)** · **[Download DOCX](https://raw.githubusercontent.com/codewithahmad23/multi-language-code-security-analyzer-fyp/main/docs/SRS_Multi_Language_Code_Security_Analyzer-2.docx)** | [`docs/`](./docs) | Complete |
 | **Software Design Document (SDD)** | — | *Upcoming* | — | Planned |
 
-> **Note:** Click **Download PDF (30 Pages)** above to open or download the complete SRS v1.1 document (`FR001–FR012`, `NFR001–NFR013`, `UC001–UC012`, 15 UML Diagrams, Logical Data Dictionary, and Requirement Traceability Matrix) directly in your browser.
+> **Note:** Click **Open / Download PDF** above to view the complete 30-page SRS v1.1 document (`FR001–FR012`, `NFR001–NFR013`, `UC001–UC012`, 15 UML Diagrams, Logical Data Dictionary, and Requirement Traceability Matrix) directly in your browser, or **Download DOCX** for the editable Word copy.
 
 ---
 
