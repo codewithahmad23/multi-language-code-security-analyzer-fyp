@@ -8,7 +8,7 @@
 [![Django REST](https://img.shields.io/badge/Django%20REST-Framework-092E20?logo=django&logoColor=white)](https://www.django-rest-framework.org/)
 [![React](https://img.shields.io/badge/React-Vite-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![SRS Version](https://img.shields.io/badge/SRS-v1.1%20Approved%20Ready-success)](#documentation)
+[![SRS Version](https://img.shields.io/badge/SRS-v1.1%20Complete-success)](#documentation)
 
 </div>
 
@@ -70,12 +70,12 @@ The **Multi-Language Code Security and Quality Analyzer** solves this through **
 
 All formal project documentation is maintained inside the [`docs/`](./docs) directory:
 
-| Document | Version | Format | Status |
-| :--- | :---: | :---: | :--- |
-| **Software Requirement Specifications (SRS)** | `v1.1` | [DOCX](./docs/SRS_Multi_Language_Code_Security_Analyzer.docx) · [PDF](./docs/SRS_Multi_Language_Code_Security_Analyzer.pdf) | Complete |
-| **Software Design Document (SDD)** | — | *Upcoming* | Planned |
+| Document | Version | Direct Download | View in Repository | Status |
+| :--- | :---: | :--- | :--- | :--- |
+| **Software Requirement Specifications (SRS)** | `v1.1` | **[Download PDF (30 Pages)](https://raw.githubusercontent.com/codewithahmad23/multi-language-code-security-analyzer-fyp/main/docs/SRS_Multi_Language_Code_Securit.pdf)** | [DOCX](./docs/SRS_Multi_Language_Code_Security_Analyzer-2.docx) · [PDF](./docs/SRS_Multi_Language_Code_Securit.pdf) | Complete |
+| **Software Design Document (SDD)** | — | *Upcoming* | — | Planned |
 
-> **Note:** Exact filenames inside `docs/` match the uploaded SRS v1.1 deliverables (`FR001–FR012`, `NFR001–NFR013`, `UC001–UC012`, UML Activity & Sequence Diagrams, Logical Data Dictionary, and Requirement Traceability Matrix).
+> **Note:** Click **Download PDF (30 Pages)** above to open or download the complete SRS v1.1 document (`FR001–FR012`, `NFR001–NFR013`, `UC001–UC012`, 15 UML Diagrams, Logical Data Dictionary, and Requirement Traceability Matrix) directly in your browser.
 
 ---
 
